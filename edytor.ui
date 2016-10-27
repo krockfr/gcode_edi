@@ -43,7 +43,7 @@
    <widget class="QPushButton" name="boutton_enregistrer">
     <property name="geometry">
      <rect>
-      <x>274</x>
+      <x>280</x>
       <y>10</y>
       <width>96</width>
       <height>27</height>
@@ -56,7 +56,7 @@
    <widget class="QPushButton" name="boutton_fermer">
     <property name="geometry">
      <rect>
-      <x>537</x>
+      <x>390</x>
       <y>10</y>
       <width>85</width>
       <height>27</height>
@@ -74,6 +74,19 @@
       <width>341</width>
       <height>281</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boutton_enregistrer_sous">
+    <property name="geometry">
+     <rect>
+      <x>148</x>
+      <y>10</y>
+      <width>121</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enregistrer sous</string>
     </property>
    </widget>
   </widget>
