@@ -29,6 +29,7 @@ class StartQT4(QtGui.QMainWindow):
         if isfile(self.filename):
             text = open(self.filename).read()            
             self.ui.editor_window.setText(text)
+            self.maj_ui()
             
 
     #ENREGISTRER SOUS

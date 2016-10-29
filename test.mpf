@@ -1,0 +1,19 @@
+;test programme d'usinage
+
+;Cycle de bridage
+M90
+M91 H=10
+M92
+
+G0 G54 X0 Y0 Z0
+ROT Z10
+G1 Z-30 F1000 S2500 M7 M8 M52
+ROT
+TRANS Y30
+G1 Z12
+TRANS
+G41 X25 Y=12+10 Z90
+G0 Z100
+
+
+G53 X0 Y0 Z0

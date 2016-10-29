@@ -113,9 +113,9 @@ class ColorSyntaxSQL(QtGui.QSyntaxHighlighter):
         # --------------------------------------------------------------------
         # delimiteur: parenthèses, crochets, accolades
         delimiteur_format = QtGui.QTextCharFormat()
-        delimiteur_format.setForeground(QtCore.Qt.darkGray)
+        delimiteur_format.setForeground(QtCore.Qt.red)
         delimiteur_format.setFontWeight(QtGui.QFont.Bold)
-        delimiteur_motif = "[\)\(]+|[\{\}]+|[][]+|[\XYZAB]"
+        delimiteur_motif = "[\)\(]+|[\{\}]+|[][]+|[XYZAB]"
         delimiteur_regex = QtCore.QRegExp(delimiteur_motif)
         self.regles.append([delimiteur_regex, delimiteur_format])
 
