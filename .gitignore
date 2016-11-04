@@ -1,0 +1,9 @@
+pyc
+.project
+.pydevproject
+/.settings
+.DS_Store
+
+.idea/
+*.iml
+*.pyc
